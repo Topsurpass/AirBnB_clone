@@ -1,0 +1,96 @@
+.places h1 {
+	font-size: 30px;
+	text-align: left;
+}
+.places article {
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #FF5A5F;
+	display: inline-block;
+	border-radius: 4px;
+}
+.places h2 {
+	font-size: 30px;
+	text-align: center;
+}
+div.price_by_night {
+	color: #FF5A5F;
+	border: 4px solid #FF5A5F;
+	border-radius: 100%;
+	min-width: 60px;
+	height: 60px;
+	font-size: 30px;
+	float: right;
+	margin-top: -77px;
+	line-height: 65px;
+}
+div.information {
+	height: 80px;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+.max_guest, .number_rooms, .number_bathrooms {
+	display: inline-block;
+	line-height: 100px;
+	width: 100px;
+	height: 100%;
+	margin-top:10px;
+	background-repeat: no-repeat;
+	background-position: 50% -5px;
+}
+.max_guest {
+	background-image: url("../images/icon_group.png");
+}
+.number_rooms {
+	background-image: url("../images/icon_bed.png");
+}
+.number_bathrooms {
+	background-image: url("../images/icon_bath.png");
+}
+div.user, div.description {
+	margin: 20px 0px 15px 0px;
+	text-align: justify;
+	height: 20%;
+}
+
+.places article div.amenities, .places article div.reviews {
+	margin: 40px 0px 30px 0px;
+	width: 100%;
+}
+.places article div.amenities h2, .places article div.reviews h2 {
+	border-bottom: 1px solid #DDDDDD;
+	font-size: 16px;
+	text-align: justify;
+}
+.places article div.reviews h3 {
+	text-align: justify;
+	font-size: 14px;
+}
+div.amenities ul, div.reviews ul {
+	list-style-type: none;
+}
+div.reviews ul li, .places article div.amenities ul li{
+	text-align: left;
+	margin-left: -40px;
+}
+.places article div.amenities ul li{
+	padding-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: 3px -5px;
+}
+div.reviews ul li p {
+	margin-top: -15px;
+}
+.places article div.amenities ul li:nth-child(1) {
+	background-image: url('../images/icon_tv.png');
+}
+.places article div.amenities ul li:nth-child(2) {
+	background-image: url('../images/icon_wifi.png');
+}
+.places article div.amenities ul li:nth-child(3) {
+	background-image: url('../images/icon_pets.png');
+}
