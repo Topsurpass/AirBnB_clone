@@ -22,7 +22,7 @@ The steps below shows step-by-step procedure on how to install the console:
 * Step 1: Clone the repository of this project from Github. Cloning this project contains the console program and all of its dependencies.
 
 ```
-git clone https://github.com/adudenamdmanny/AirBnB_clone.git
+git clone https://github.com/Topsurpass/AirBnB_clone.git
 
 ```
 Below are the description of the program and all its dependencies:
